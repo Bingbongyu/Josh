@@ -1,0 +1,51 @@
+body{
+    background-image: url("/GasStation.jpg");
+    background-size: auto;
+}
+
+/* Body page */
+.bPage{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Board{
+    width:612px;
+    height: 612px;
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+.piece,.Piece1,.piece2,.Piece3,.piece4,.Piece5,.piece6,.Piece7{
+    width:76.5px;
+    height:76.5px;
+    background-color: royalblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Piece,.piece1,.Piece2,.piece3,.Piece4,.piece5,.Piece6,.piece7{
+    width:76.5px;
+    height:76.5px;
+    background-color:red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.piece:hover,.Piece1:hover,.piece2:hover,.Piece3:hover,.piece4:hover,.Piece5:hover,.piece6:hover,.Piece7:hover{
+    opacity: 0.5;
+}
+.Piece:hover,.piece1:hover,.Piece2:hover,.piece3:hover,.Piece4:hover,.piece5:hover,.Piece6:hover,.piece7:hover{
+    opacity: 0.5;
+}
+.Pawn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 50%;
+}
+
